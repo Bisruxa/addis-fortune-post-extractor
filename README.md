@@ -4,6 +4,27 @@ A full-stack system that extracts, stores, and displays articles from the **Addi
 
 Built for the Full-Stack Developer Technical Exam (Laravel API + React + Python).
 
+## Preview
+
+<p align="center">
+  <img src="docs/screenshots/homepage.png" alt="Addis Fortune archive — browse by section with search" width="900"/>
+</p>
+
+<p align="center"><em>Browse 55 articles across 14 sections with full-text search</em></p>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/article-header.png" alt="Article detail — title, summary, and related stories" width="100%"/>
+      <br/><sub><b>Article view</b> — title, summary, and related stories</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="docs/screenshots/article-detail.png" alt="Full article with preserved images from the original archive" width="100%"/>
+      <br/><sub><b>Reading experience</b> — full text and illustrations from the archive</sub>
+    </td>
+  </tr>
+</table>
+
 ## The Problem
 
 The exam data is a legacy offline newspaper archive: dozens of `.htm` files with nested tables, Flash embeds, and inconsistent markup. There is no search, no categories API, and no modern way to read or browse the content.
@@ -225,6 +246,5 @@ Open **http://localhost:5173** — browse articles, filter by category, search, 
 
 **Addis Fortune Volume 7, Number 364** — business news, opinion, cartoons, interviews, news-in-brief, restaurant reviews, and more. Categories are inferred from file names and titles (e.g. `opinion.htm`, `newsinbrief.htm`, `INTERVIEW-*.htm`).
 
-## License
 
-Technical exam submission — educational use.
+
